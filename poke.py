@@ -13,5 +13,6 @@ def lang():
             print(data[pokemon]['name']['chinese'])
         if language == ("french"):
             print(data[pokemon]['name']['french'])
+    poke = input("what pokemon do you want to see")
 lang()
      
