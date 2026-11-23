@@ -6,6 +6,7 @@ data = json.load(pokedex)
 def name():
     poke = int(input("what pokemon do you want to see"))
     poke = ["id"]
+name()
 
 
 
@@ -23,4 +24,5 @@ def lang():
         else:
             print ("langauge not avalible")
 lang()
+
 
